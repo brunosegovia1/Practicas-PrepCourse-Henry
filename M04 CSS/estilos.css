@@ -1,3 +1,8 @@
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
     background-color: black;
@@ -12,7 +17,7 @@ body
 .title
 {
     background-color: brown;
-    font-family: Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial', 'Helvetica', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     color: rgb(177, 205, 206);
 }
@@ -31,17 +36,61 @@ body
 hr
 {
     border-color: black;
-    width: 65vw;
+    width: 100%;
     margin-left: 0; /* Establecer el margen izquierdo a 0 para que esté pegado a la izquierda */
 }
 
 p
 {
-    color:rgb(233, 211, 211);
+    color:rgb(177, 205, 206);
+    font-family: 'Arial', 'Helvetica', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 }
 
 .div1
 {
-    padding: fit-content;
+    padding: 10px; /* Ajusta según tus necesidades */
     border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2
+{
+    font-family: 'Arial', 'Helvetica', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: rgb(177, 205, 206);
+    font-size: 30px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logos
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 2em 2em 5em 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center;
+}
+
+#logo1
+{
+    width: 200px;
+}
+
+#logo2
+{
+    width: 300px;
+}
+
+#logo3
+{
+    width: 180px;
 }
