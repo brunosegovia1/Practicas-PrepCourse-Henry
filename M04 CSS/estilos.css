@@ -5,27 +5,43 @@ body
 
 #principal
 {
-    font-size: 70px;
+    font-size: 60px;
+    padding: 2em 5em;
 }
 
 .title
 {
     background-color: brown;
+    font-family: Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    color: crimson;
+    color: rgb(177, 205, 206);
 }
 
 .wallpaper
 {
     width: 700px;
+    border: 2px solid whitesmoke;
+}
+
+.wallpaper:hover
+{
+    border: 2px solid rgb(181, 0, 0);
 }
 
 hr
 {
     border-color: black;
+    width: 65vw;
+    margin-left: 0; /* Establecer el margen izquierdo a 0 para que esté pegado a la izquierda */
 }
 
 p
 {
     color:rgb(233, 211, 211);
+}
+
+.div1
+{
+    padding: fit-content;
+    border-radius: 15%;
 }
