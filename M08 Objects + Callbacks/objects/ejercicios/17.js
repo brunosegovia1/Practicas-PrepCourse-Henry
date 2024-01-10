@@ -3,6 +3,20 @@ function actualizarPassword(objetoUsuario, nuevaPassword) {
   // La nueva contraseña la recibes por parámetro.
   // Retornar el objeto.
   // Tu código:
+  objetoUsuario.password = nuevaPassword;
+
+  return objetoUsuario;
 }
+
+var cuenta = {
+  nombre: "Caillou",
+  email : 'tucallito@gmail.com', 
+  password: 'legitimatrinidad',
+  propiedad: undefined,
+}
+
+console.log(actualizarPassword(cuenta, 'santisimatrinidad'));
+
+
 
 module.exports = actualizarPassword;
