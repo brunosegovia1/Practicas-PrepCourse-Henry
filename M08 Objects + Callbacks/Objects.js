@@ -34,6 +34,18 @@ atuendos.torso = ['Camisa', 'Chaqueta'];
 console.log(atuendos);
 
 
+//Así se añaden claves a un objeto dentro de funciones
+const agregarNuevaPropiedad = (objeto, propiedad, valor) => {
+  objeto[propiedad] = valor
+  return console.log(objeto);
+};
+var gimnasio = {
+  crossfit: ['13hs', '14hs', '17hs'],
+  musculacion: ['18hs', '19hs', '20hs'],
+};
+agregarNuevaPropiedad(gimnasio, "zumba", ['20hs', '21hs', '22hs'] ),
+
+
 var comidas = {};
 //Así se agregan claves o se le cambian los valores a un objeto usando funciones
 function diferenciaDeNotaciones (propUno, propDos){
