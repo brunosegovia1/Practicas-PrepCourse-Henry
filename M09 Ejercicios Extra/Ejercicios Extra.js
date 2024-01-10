@@ -60,6 +60,37 @@ function buscoInterseccion(array1, array2) {
   // Tu código:
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
   deObjetoAarray,
