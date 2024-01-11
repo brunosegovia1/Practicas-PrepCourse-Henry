@@ -6,6 +6,18 @@ function operadoresLogicos(num1, num2, num3) {
   // Si todos los argumentos son cero, retorna ---> "Error".
   // Si no se cumple ninguna de las condiciones anteriores, retorna false.
   // Tu código:
+  if (Math.max(num1, num2, num3) === num1 && num1 > 0)
+  {
+    return "Numero 1 es mayor y positivo";
+  }
+  else if (num1 < 0 || num2 < 0 || num3 < 0 )
+  {
+    return "Hay negativos";
+  }
+  else if (num1 === 0 && num1 === num2 && num2 === num3) 
+  {
+    return "Error";
+  }else return false;
 }
-
+console.log(operadoresLogicos(8, 9, 289));
 module.exports = operadoresLogicos;
